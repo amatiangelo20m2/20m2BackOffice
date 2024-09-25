@@ -15,8 +15,7 @@ import { logout } from 'src/app/store/actions/authentication.actions';
 
 @Component({
   selector: 'app-topbar',
-  templateUrl: './topbar.component.html',
-  styleUrls: ['./topbar.component.scss']
+  templateUrl: './topbar.component.html'
 })
 
 // Topbar Component
@@ -70,6 +69,7 @@ export class TopbarComponent {
       x['total'] = (x['qty'] * x['price']).toFixed(2)
       this.subtotal += parseFloat(x['total'])
     })
+
     this.subtotal = this.subtotal.toFixed(2)
     this.discount = (this.subtotal * this.discountRate).toFixed(2)
     this.tax = (this.subtotal * this.taxRate).toFixed(2);

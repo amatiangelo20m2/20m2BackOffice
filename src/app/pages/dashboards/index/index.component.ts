@@ -10,7 +10,6 @@ import { IndexService } from './index.service';
 @Component({
   selector: 'app-index',
   templateUrl: './index.component.html',
-  styleUrls: ['./index.component.scss'],
   providers: [IndexService, DecimalPipe]
 })
 

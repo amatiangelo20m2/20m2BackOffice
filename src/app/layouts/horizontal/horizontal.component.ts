@@ -3,8 +3,7 @@ import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-horizontal',
-  templateUrl: './horizontal.component.html',
-  styleUrls: ['./horizontal.component.scss']
+  templateUrl: './horizontal.component.html'
 })
 export class HorizontalComponent {
 

@@ -1,6 +1,6 @@
 <header id="page-topbar" (window:scroll)="windowScroll()">
-    <div class="layout-width">
-        <div class="navbar-header">
+    <div class="layout-width" style="background: white">
+        <div class="navbar-header" >
             <div class="d-flex">
                 <!-- LOGO -->
                 <div class="navbar-brand-box horizontal-logo">
@@ -32,11 +32,11 @@
                 </button>
 
                 <form class="app-search d-none d-md-inline-flex">
-                    <div class="position-relative">
-                        <input type="text" class="form-control border-0" placeholder="Search for anything..." autocomplete="off" id="search-options" value="" (keyup)="Search()">
-                        <span class="ti ti-search search-widget-icon"></span>
-                        <span class="ti ti-x search-widget-icon search-widget-icon-close d-none" id="search-close-options" (click)="closeBtn()"></span>
-                    </div>
+<!--                    <div class="position-relative">-->
+<!--                        <input type="text" class="form-control border-0" placeholder="Search for anything..." autocomplete="off" id="search-options" value="" (keyup)="Search()">-->
+<!--                        <span class="ti ti-search search-widget-icon"></span>-->
+<!--                        <span class="ti ti-x search-widget-icon search-widget-icon-close d-none" id="search-close-options" (click)="closeBtn()"></span>-->
+<!--                    </div>-->
                     <div class="dropdown-menu dropdown-menu-lg" id="search-dropdown">
                         <ngx-simplebar style="max-height: 320px;">
                             <!-- item-->
